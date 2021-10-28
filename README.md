@@ -7,7 +7,7 @@
 pip install -r requirements.txt
 ```
 
-models文件夹下为模型，对于自定义的模型，需要将模型写入models/__init__.py文件中才能在main.py中使用。
+models文件夹下为模型，对于自定义的模型，需要将模型写入models/\_\_init\_\_.py文件中才能在main.py中使用。
 
 ## Usage
 可以直接使用launch.sh脚本启动训练，传入gpu编号即可
@@ -20,7 +20,7 @@ $ ./launch.sh 0
 $ CUDA_VISIBLE_DEVICES=0 python main.py --dataset mnist
 ```
 
-## Reference：
+## Reference
 https://github.com/gram-ai/capsule-networks
 
 
