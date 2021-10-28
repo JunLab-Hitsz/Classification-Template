@@ -2,11 +2,6 @@
 
 使用torchnet模板和tensorboard可视化分类模板。
 
-## Install Requirements
-```
-pip install -r requirements.txt
-```
-
 models文件夹下为模型，对于自定义的模型，需要将模型写入models/\_\_init\_\_.py文件中才能在main.py中使用。
 
 ## Usage
@@ -14,6 +9,11 @@ clone该Repository
 ```
 git clone git@github.com:JunLab-Hitsz/Classification-Template.git
 cd Classification-Template
+```
+
+### Install Requirements
+```
+pip install -r requirements.txt
 ```
 
 直接使用launch.sh脚本启动训练，传入gpu编号即可
