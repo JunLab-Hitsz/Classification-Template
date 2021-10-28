@@ -37,7 +37,7 @@ tensorboard --logdir=/path/to/tensorboard/log
 如果在docker中训练，由于端口可能无法看到tensorboard的结果，这里推荐使用VSCode来启动tensorboard
 
 #### VSCode with Tensorboard
-由于代码中存在Tensorboard的代码，VSCode会提示安装Tensorboard，安装完成后使用`Shift+Ctrl+p`打开VSCode菜单，输入`launch tensorboard`，随后选择logdir即可。此时VSCode下方控制台port栏会出现单口映射，鼠标点击即可访问tensorboard可视化结果。
+由于代码中存在Tensorboard的代码，VSCode会提示安装Tensorboard，安装完成后使用`Shift+Ctrl+p`打开VSCode菜单，输入`launch tensorboard`，随后选择logdir即可。此时VSCode下方控制台port栏会出现端口映射，鼠标点击即可访问tensorboard可视化结果。
 ![图片](https://user-images.githubusercontent.com/71539436/139179486-a686323d-392a-4c21-b421-5f29b56d3457.png)
 
 ## Reference
